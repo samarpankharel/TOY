@@ -1,0 +1,57 @@
+/* Adding some styles for the HTML layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+    text-align: center;
+
+}
+
+#carShowcase {
+width: 350px;
+margin: 20px 0;
+align-items: center;
+display: block;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005f5f;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
